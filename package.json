@@ -1,0 +1,35 @@
+{
+  "name": "gif-parser",
+  "version": "1.0.0",
+  "description": "streaming gif parser",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tape tests/test-*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MaxGfeller/gif-parser.git"
+  },
+  "keywords": [
+    "gif",
+    "parser",
+    "streaming"
+  ],
+  "author": "Max Gfeller <max.gfeller@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MaxGfeller/gif-parser/issues"
+  },
+  "homepage": "https://github.com/MaxGfeller/gif-parser",
+  "dependencies": {
+    "binary-parser": "^1.1.2"
+  },
+  "devDependencies": {
+    "concat": "^1.0.0",
+    "concat-stream": "^1.4.7",
+    "tape": "^3.0.3"
+  }
+}
